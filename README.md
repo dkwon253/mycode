@@ -1,1 +1,1 @@
-# mycode
+# MyCode for Python Class
