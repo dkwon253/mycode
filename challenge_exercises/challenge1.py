@@ -18,7 +18,7 @@ heroes=  {
     "archenemy": "Hydra",}
     }
 
-char_name = name
-char_stat = stat
+char_name = name.lower()
+char_stat = stat.lower()
 
-print(f"{char_name}'s {char_stat} is: {heroes[char_name][char_stat]}")
+print(f"{char_name.title()}'s {char_stat} is: {heroes[char_name][char_stat]}")
