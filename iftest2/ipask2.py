@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 
+# import statement
+import ipaddress
+
 # this line now prompts the user for input
 ipchk = input("Apply an IP address: ")
-
 
 # if user set IP of gateway
 if ipchk == "192.168.70.1":
