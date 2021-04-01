@@ -12,7 +12,7 @@ while True:
     answer = input("Your answer to the first question:  \n")
     answer2 = input("Your answer to the second question: \n")
 
-    if str(answer) == "" and str(answer2) == "":
+    if str(answer) == "" or str(answer2) == "":
         print("You did not enter anything, dummy!\n")
 
     elif answer == "15" and answer2 == "82":
