@@ -15,7 +15,7 @@ while True:
     if str(answer) == "" and str(answer2) == "":
         print("You did not enter anything, dummy!\n")
 
-    elif int(answer) == 15 and int(answer2) == 82:
+    elif answer == "15" and answer2 == "82":
         print("That is the correct! Tiger Woods is the GOAT!!")
         break
 
